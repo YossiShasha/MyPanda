@@ -29,6 +29,8 @@ public class Main {
         System.in.read();
         // Shutdown the server.
         system.terminate();
+        // Stop the hanging process.
+        process.destroy();
         // Shutdown the consumer.
         executor.shutdownNow();
     }
