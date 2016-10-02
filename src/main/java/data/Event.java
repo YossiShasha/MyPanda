@@ -3,6 +3,7 @@ package data;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
+ * Represents an Event. supports JSON parsing.
  * Created by Yossi on 01/10/2016.
  */
 public class Event {

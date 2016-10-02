@@ -8,6 +8,12 @@ import java.net.URL;
  */
 public class ExecutableUtils {
 
+    /**
+     * Receives an executable name that exists as a resource.
+     * @param executableName
+     * @return the process of the executed executable.
+     * @throws IOException when the file is n ot found or when the execution fails.
+     */
     public static Process getProcessOfExecutable(String executableName) throws IOException {
         // Get the path of the exe file.
         URL url = ClassLoader.getSystemResource(executableName);

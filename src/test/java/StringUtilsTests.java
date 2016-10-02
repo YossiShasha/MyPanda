@@ -5,7 +5,7 @@ import utils.StringUtils;
 /**
  * Created by Yossi on 02/10/2016.
  */
-public class StringUtilsTest {
+public class StringUtilsTests {
 
     @Test
     public void wordCount(){

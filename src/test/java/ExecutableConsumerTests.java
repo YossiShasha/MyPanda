@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by Yossi on 02/10/2016.
  */
-public class ExecutableConsumerTest {
+public class ExecutableConsumerTests {
 
     @Test(expected = IOException.class)
     public void runExecutableWithBadPath() throws IOException {

@@ -5,8 +5,11 @@ package utils;
  */
 public class StringUtils {
 
-    public StringUtils(){}
-
+    /**
+     * Computes and returns the number of words in a given string.
+     * @param str
+     * @return number of words in the string.
+     */
     public static int getWordCount(String str){
         if(str == null){
             return 0;
