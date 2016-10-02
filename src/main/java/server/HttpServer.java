@@ -11,8 +11,6 @@ public class HttpServer extends HttpApp {
 
     private static final String EVENT_TYPE_STRING = " event type count is: ";
 
-
-
     // Represents the `eventType` URI parameter of type String.
     private RequestVal<String> eventType = Parameters.stringValue("type");
 
