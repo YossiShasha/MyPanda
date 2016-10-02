@@ -16,7 +16,7 @@ public class Main {
     public static final String EXECUTABLE_NAME = "generator-windows-amd64.exe";
 
     public static void main(String[] args) throws IOException {
-        // Consume the output from the process in different thread.
+        // Consume the output from the process in a different thread.
         Process process = ExecutableUtils.getProcessOfExecutable(EXECUTABLE_NAME);
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.submit(new EventsOutputConsumer(process.getInputStream()));
